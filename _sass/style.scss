@@ -1,3 +1,13 @@
-.layered-image {
-    background: linear-gradient(blue, pink);
+.layered-background {
+    background: linear-gradient(#16002f, #4d1f82);
   }
+
+// .header-background-stars {
+//     background-image: url(/assets/img/background-stars.png);
+// }
+
+.header-background {
+    background-image: url(/assets/img/background-img.png), url(/assets/img/background-stars.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
