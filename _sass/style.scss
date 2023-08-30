@@ -1,13 +1,11 @@
 .layered-background {
     background: linear-gradient(#16002f, #4d1f82);
-  }
-
-// .header-background-stars {
-//     background-image: url(/assets/img/background-stars.png);
-// }
+}
 
 .header-background {
-    background-image: url(/assets/img/background-img.png), url(/assets/img/background-stars.png);
+    background-image:
+        url(https://github.com/AreNotAvalible/Monden/blob/develope/assets/img/background-img.png?raw=true),
+        url(https://github.com/AreNotAvalible/Monden/blob/develope/assets/img/background-stars.png?raw=true);
     background-position: bottom;
     background-repeat: no-repeat;
 }
