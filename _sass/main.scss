@@ -1,8 +1,14 @@
-.layered-background {
+@import "vars";
+@import "bootstrap-5.3.1/scss/bootstrap.scss";
+
+
+/* Custom Styles */
+
+body {
     background: linear-gradient(#16002f, #580e50);
 }
 
-.header-background {
+header {
     background-image:
         url('img/background-img.png'),
         url('img/background-stars.png');
@@ -10,7 +16,7 @@
     background-repeat: no-repeat;
 }
 
-.footer-background {
+footer {
     background-image:
         url('img/background-footer.png');
     background-position: bottom;
