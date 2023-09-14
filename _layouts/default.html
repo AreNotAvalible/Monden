@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+
+{%- include head.html -%}
+
+<body class="layered-background">
+    
+    {{ content }}
+
+    {%- include bootstrap-script.html -%}
+</body>
+
+</html>
